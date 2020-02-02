@@ -1,12 +1,14 @@
 @charset "UTF-8";
 /* CSS DOCUMENt */
 
+.hidden {
+   display: none;
+}
 
 .siteContainer {
    width: 1400px;
    height: auto;
    margin: 0 auto;
-   background-color: pink;
 }
 
 .siteContainer div {   /* Scaffhold only  REMOVE later*/
@@ -69,6 +71,29 @@ header {
    margin: 50px 40px;
 }
 
+/* About */
+
+.about {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.section__half {
+   width: 550px;
+   height: 300px;
+   margin: 100px 50px;
+}
+
+.section__six {
+   width: 320px;
+   height: 150px;
+   margin: 25px 20px;
+}
+
 /* Footer */
 
 footer {
@@ -78,6 +103,7 @@ footer {
    justify-content: space-around;
    align-items: center;
    flex-wrap: wrap;
+   margin-top: 20px;
 }
 
 .logo__footer {
